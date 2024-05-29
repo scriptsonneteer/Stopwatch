@@ -1,0 +1,48 @@
+body { /* Styles for the body of the page */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    /* Centers content both vertically and horizontally */
+    height: 100vh; /* Full viewport height */
+    background-color: #eeeef0; /* background color */
+    font-family: 'Open Sans', sans-serif;
+    /* Uses the open sans font */
+    margin: 0; /*m Removes default margin */
+}
+
+.stopwatch-container {
+    text-align: center; /* Center-aligens text whithin the container */
+}
+
+.time-display {
+    font-size: 5em; /* Number size */
+    font-weight: bold; /* Bold text */
+    color: #333333; /* Dark gray color */
+    margin-bottom: 20px; /* Space below the time */
+    width: 450px; /* Adjust width to fit the text */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.buttons button {
+    background-color: #5fa1e8; /* Buttuns color */
+    border: none; /* No border */
+    color: #f1f2f3; /* Text color */
+    padding: 11px; /* Padding inside the buttons */
+    margin: 5px; /* Space between the buttons */
+    border-radius: 50%; /* Make buttons circular */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1.1em; /* Text size */
+    transition: background-color 0.3s;
+    /* Smooth color change on hover */
+    width: 60px; /* width to make it circular */
+    height: 60px; /* height to make it circular */
+}
+
+.buttons button:hover { /* Styles when button is hovered over */
+    background-color: #91add7;
+}
+
+.buttons button:active { /* Styles when button is clicked */
+    background-color: #789bc8;
+}
+
